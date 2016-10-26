@@ -5,9 +5,9 @@ class Home extends React.Component {
     return(
       <div className="home-container">
       <div className="home-inner">
-        <h2> HI I’M XIXILIDE</h2>
-        <p>WEB DEVELOPER</p>
-        <button className="btn"><a href="https://github.com/xixilide" style={{color:'#fff'}} >HIRE ME</a></button>
+        <h2> Happy birthday!</h2>
+        <p>My dear firend</p>
+        <button className="btn"><a href="https://github.com/xixilide" style={{color:'#fff'}} >from Yanjinxia</a></button>
       </div>
       </div>
     )

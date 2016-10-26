@@ -11,7 +11,7 @@ class NavHeader extends React.Component {
   <p onClick={this.handleBack.bind(this)}>
   <span className="glyphicon glyphicon-arrow-left" aria-hidden="true">back</span></p>
 
-    <h3>xixilide@{this.props.title}</h3>
+    <h3>殷振茹@{this.props.title}</h3>
 
   <span className="glyphicon glyphicon-record"></span>
 

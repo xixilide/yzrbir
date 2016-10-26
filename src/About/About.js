@@ -1,28 +1,35 @@
-import React, { PropTypes } from 'react'
-import Echarts from 'echarts';
-import { Link } from 'react-router';
-
+import React from 'react';
+import Img1 from '../img/a1.jpg';
+import Img2 from '../img/a2.jpg';
+import Img3 from '../img/a3.jpg';
 class About extends React.Component {
   render () {
-   let   styles={
-      btn:{
-        width:'160px',
-        height:'40px',
-        borderRadius:'15px',
-        backgroundColor:'#FF9E80',
-        color:"teal",
-        margin:'10px 0',
-        textAlign:'center',
-        padding:'10px 0',
-        fontSize:'18px'
-      }
-    }
+
     return(
-      <div className="about-container">
-        <h3>偏执狂个人中心</h3>
-          <Link activeStyle={{color:"#E040FB"}} style={styles.btn} onlyActiveOnIndex={true} to="/about/skill">技能知识</Link>
-          <Link activeStyle={{color:"#E040FB"}} style={styles.btn} to="/about/hobby">兴趣爱好</Link>
-          <Link activeStyle={{color:"#E040FB"}} style={styles.btn} to="/about/story">我的故事</Link>
+      <div>
+        <ul className="thumbnails">
+          <li className="span4">
+            <div className="thumbnail">
+              <img src={Img1} />
+              <h3>Thumbnail label</h3>
+              <p>Thumbnail </p>
+            </div>
+          </li>
+          <li className="span4">
+            <div className="thumbnail">
+              <img src={Img2} />
+              <h3>Thumbnail label</h3>
+              <p>Thumbnail caption...</p>
+            </div>
+          </li>
+          <li className="span4">
+            <div className="thumbnail">
+              <img src={Img3} />
+              <h3>Thumbnail label</h3>
+              <p>Thumbnail </p>
+            </div>
+          </li>
+        </ul>
       </div>
     )
   }

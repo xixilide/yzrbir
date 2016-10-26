@@ -111,7 +111,7 @@ body{
   width:100%;
   display: flex;
   align-items: center;
-  background-image: url(./img/q.jpg);
+  background-image: url(./img/m.jpg);
   background-size: cover;
   background-position: 50% 50%;
   flex-grow: 1;
@@ -141,7 +141,7 @@ body{
   -webkit-justify-content: center;
   -webkit-box-pack: center;
   flex-grow: 1;
-  background-image: url(./img/qq.jpeg);
+  background-image: url(./img/m6.jpg);
   background-size: cover;
   background-position: 50% 50%;
 
@@ -195,4 +195,12 @@ body{
 .list-group-item{
   margin-bottom: 10px;
   padding: 10px 40;
+}
+.blogcointaer{
+  background-image: url(./img/a2.jpg);
+  background-repeat: repeat;
+
+  font-family: "微软雅黑";
+  font-size: 28px;
+  color: #fff;
 }
