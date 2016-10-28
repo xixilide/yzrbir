@@ -1,8 +1,8 @@
 import React, { PropTypes } from 'react'
-import Img1 from '../img/m2.jpg';
+import Img1 from '../img/a8.jpg';
 import Img2 from '../img/m5.jpg';
-import Img3 from '../img/m1.jpg';
-import Img4 from '../img/m4.jpg';
+import Img3 from '../img/aa.jpg';
+import Img4 from '../img/m6.jpg';
 
 
 
@@ -36,7 +36,7 @@ class Work extends React.Component {
   <div className="work-card">
         <a href="#"><img src={Img4} /></a>
           <div className="work-text">
-              <h3>不老</h3>s
+              <h3>不老</h3>
         </div>
   </div>
 </div>
