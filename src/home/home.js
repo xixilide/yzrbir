@@ -7,7 +7,7 @@ class Home extends React.Component {
       <div className="home-inner">
         <h2> Happy birthday!</h2>
         <p>My dear firend</p>
-        <button className="btn"><a href="https://github.com/xixilide" style={{color:'#fff'}} >from XiaoYan</a></button>
+        <button className="btn"><a href="#" style={{color:'#fff'}} >from XiaoYan</a></button>
       </div>
       </div>
     )
